@@ -1,0 +1,18 @@
+{
+    "name": "jstv",
+    "version": "0.0.0",
+    "description": "JavaScript Single Transferrable Vote implementation",
+    "main": "dist/index.js",
+    "repository": "https://github.com/thetayloredman/jstv.git",
+    "author": "0xLogN <nutdriver716@gmail.com>",
+    "license": "GPL-3.0",
+    "private": false,
+    "dependencies": {
+        "debug": "^4.3.4"
+    },
+    "devDependencies": {
+        "np": "^7.6.1",
+        "prettier": "^2.6.2",
+        "typescript": "^4.7.3"
+    }
+}
