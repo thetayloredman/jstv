@@ -1,6 +1,6 @@
 {
     "name": "jstv",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "JavaScript Single Transferrable Vote implementation",
     "main": "dist/index.js",
     "repository": "https://github.com/thetayloredman/jstv.git",
