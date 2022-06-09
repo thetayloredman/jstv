@@ -1,6 +1,7 @@
 {
     "name": "jstv",
     "version": "0.1.1-0",
+    "type": "module",
     "description": "JavaScript Single Transferrable Vote implementation",
     "main": "dist/index.js",
     "repository": "https://github.com/thetayloredman/jstv.git",
@@ -11,6 +12,7 @@
         "debug": "^4.3.4"
     },
     "devDependencies": {
+        "@types/debug": "^4.1.7",
         "np": "^7.6.1",
         "prettier": "^2.6.2",
         "typescript": "^4.7.3"
