@@ -6,13 +6,13 @@ An interesting standard throughout the source code is the `parentClassName` fiel
 
 ```ts
 class B extends Base {
-    constructor(parentClassName: string = "B") {
+    constructor(parentClassName: string = 'B') {
         super(parentClassName);
     }
 }
 
 class A extends B {
-    constructor(parentClassName: string = "A") {
+    constructor(parentClassName: string = 'A') {
         super(parentClassName);
     }
 }

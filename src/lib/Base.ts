@@ -16,13 +16,13 @@ import debug from 'debug';
 // How do I make the A class use the CHILD class's _id property???
 
 export default abstract class Base {
-        protected static _instanceID: number = 0;
-        protected _instanceID: number;
-        protected _log: debug.Debugger;
+    protected static _instanceID: number = 0;
+    protected _instanceID: number;
+    protected _log: debug.Debugger;
 
-        constructor() {
-            // FIXME: Read above FIXME VVVVVV
-            this._instanceID = Base._instanceID++;
-            this._log = debug(`jstv:${this.constructor.name}:${this._instanceID.toString()}`);
-        }
+    constructor() {
+        // FIXME: Read above FIXME VVVVVV
+        this._instanceID = Base._instanceID++;
+        this._log = debug(`jstv:${this.constructor.name}:${this._instanceID.toString()}`);
+    }
 }
